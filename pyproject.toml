@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "masters-crm"
+version = "0.1.0"
+description = ""
+authors = ["alxnsmith <alx.n.smith@gmail.com>"]
+readme = "README.md"
+packages = [{include = "masters_crm"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "^4.2.1"
+graphene-django = "^3.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
